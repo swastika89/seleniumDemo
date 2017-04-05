@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="44368" started-at="2017-04-03T06:53:27Z" finished-at="2017-04-03T06:54:11Z">
+  <suite name="TestSuite" duration-ms="77588" started-at="2017-04-05T12:44:41Z" finished-at="2017-04-05T12:45:58Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:wildcraft.web.runTest@1fdc050]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="smoke" duration-ms="44368" started-at="2017-04-03T06:53:27Z" finished-at="2017-04-03T06:54:11Z">
+    <test name="smoke" duration-ms="77588" started-at="2017-04-05T12:44:41Z" finished-at="2017-04-05T12:45:58Z">
       <class name="wildcraft.web.runTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:wildcraft.web.runTest@1fdc050]" name="setUpClass" is-config="true" duration-ms="344" started-at="2017-04-03T12:23:27Z" finished-at="2017-04-03T12:23:27Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:wildcraft.web.runTest@1fdc050]" name="setUpClass" is-config="true" duration-ms="390" started-at="2017-04-05T18:14:41Z" finished-at="2017-04-05T18:14:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:wildcraft.web.runTest@1fdc050]" name="feature" duration-ms="43914" started-at="2017-04-03T12:23:27Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-04-03T12:24:11Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:wildcraft.web.runTest@1fdc050]" name="feature" duration-ms="77047" started-at="2017-04-05T18:14:41Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-04-05T18:15:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[LOGIN]]>
+                <![CDATA[Forgot Password Page]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:wildcraft.web.runTest@1fdc050]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2017-04-03T12:24:11Z" finished-at="2017-04-03T12:24:11Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:wildcraft.web.runTest@1fdc050]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2017-04-05T18:15:58Z" finished-at="2017-04-05T18:15:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

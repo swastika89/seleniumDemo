@@ -6,7 +6,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 features = "classpath:features",
 plugin = {"pretty", "html:target/cucumber-html-report"} ,
-tags = { "@Verify_InvalidPassword" }
+tags = { "@Verify_ForgotPassword" }
 )
 public class runTest extends AbstractTestNGCucumberTests {
 }
